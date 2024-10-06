@@ -1,0 +1,7 @@
+- name: "Install the 'mupdf' application package"
+  ansible.builtin.package:
+    name: mupdf
+    state: present
+  become: true
+  become_user: root
+

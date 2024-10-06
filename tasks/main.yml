@@ -1,0 +1,3 @@
+- name: "Install the mutool utility"
+  ansible.builtin.include_tasks: install/main.yml
+

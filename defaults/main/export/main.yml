@@ -1,0 +1,3 @@
+# command to execute to start mutool
+mutool_main_command: "mutool"
+
