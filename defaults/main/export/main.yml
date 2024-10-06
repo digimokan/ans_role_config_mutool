@@ -1,6 +1,8 @@
 # command to execute to start mutool
 mutool_main_command: "mutool"
 
-# command to execute to convert a PDF document to text
-mutool_conv_pdf_to_txt_cmd: "mutool draw -F txt -i"
+# command prefix and suffix to execute to convert a PDF document to text
+# Note: run with [prefix] file_name.pdf [suffix] width-of-preview
+mutool_conv_pdf_to_txt_cmd_prefix: "mutool draw -F txt -i --"
+mutool_conv_pdf_to_txt_cmd_suffix: "1-10 | fmt -w"
 
